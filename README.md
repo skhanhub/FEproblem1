@@ -33,7 +33,7 @@ The server runs on port `3000`.
 ## Project Structure
 
 
-1. The `client/src/App.tsx` directory contains the root react component for the Frontend.
+1. The `client/src/App.js` directory contains the root react component for the Frontend.
 2. The tests are placed next to the related components or modules.
 
 ## Development
