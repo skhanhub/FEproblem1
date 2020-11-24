@@ -18,8 +18,8 @@ function App() {
       <NavBar />
       {error && <h3 style={{color: 'red', textAlign: 'center'}}>{error}</h3>}
       <Switch>
-        <Route exact path="/" component={Game} />
-        <Route exact path="/Result" component={Result} />
+        <Route exact path="/finding-falcone/" component={Game} />
+        <Route exact path="/finding-falcone/Result" component={Result} />
         <Route component={NoMatch} />
       </Switch>
       <Footer />
