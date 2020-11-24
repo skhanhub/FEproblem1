@@ -47,7 +47,7 @@ describe('Tests for NavBar component', () => {
       </Provider>,
     );
     fireEvent.click(getByTestId('navBarBrand'));
-    expect(mockHistoryPush).toHaveBeenCalledWith('/finding-falcone/');
+    expect(mockHistoryPush).toHaveBeenCalledWith('/');
   });
 
   it('Called dispatch on click', () => {

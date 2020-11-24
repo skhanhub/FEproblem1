@@ -13,7 +13,7 @@ export default function NavBar() {
     <Navbar bg="dark" variant="dark" style={{marginBottom: "2rem"}}>
       <Navbar.Brand 
         data-testid="navBarBrand"
-        onClick={event=>history.push("/finding-falcone/")}
+        onClick={event=>history.push("/")}
       >
         Finding Falcone!
       </Navbar.Brand>

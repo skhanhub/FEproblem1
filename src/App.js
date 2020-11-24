@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import { useSelector } from "react-redux"
 import NoMatch from "./pages/NoMatch";
@@ -15,11 +15,11 @@ function App() {
 
   return (
     <Router>
-      <NavBar />
+      <NavBar/>
       {error && <h3 style={{color: 'red', textAlign: 'center'}}>{error}</h3>}
       <Switch>
-        <Route exact path="/finding-falcone/" component={Game} />
-        <Route exact path="/finding-falcone/Result" component={Result} />
+        <Route exact path="/" component={Game} />
+        <Route exact path="/Result" component={Result} />
         <Route component={NoMatch} />
       </Switch>
       <Footer />

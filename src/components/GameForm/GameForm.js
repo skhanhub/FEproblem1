@@ -62,7 +62,7 @@ function GameForm() {
             disabled={!selected} 
             onClick={event=>{
               dispatch(findPlanet())
-              history.push(`/finding-falcone/Result`)
+              history.push(`/Result`)
             }} 
             variant="primary"
           >
