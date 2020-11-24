@@ -32,7 +32,7 @@ export default function Planet({planetId}) {
           value={selectedPlanet}
           as={CustomToggle} 
         >
-          Destination {planetId}
+          Destination {planetId+1}
         </Dropdown.Toggle>
 
         <Dropdown.Menu 
