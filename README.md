@@ -28,6 +28,8 @@ The server runs on port `3000`.
 - npm test                 - will run all the tests
 - npm run eject            - will give access to all config files
 - npm start                - will start the dev server
+- npm run predeploy        - will build all the static files 
+- npm run deploy           - will deploy to github pages
 ```
 
 ## Project Structure
