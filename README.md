@@ -1,4 +1,4 @@
-# Finding Falcone!
+# finding-falcone
 
 This project demonstrates how to build a simple, web-based game. 
 
@@ -15,6 +15,7 @@ The application uses the following technologies:
 
 run the client server
 ```
+npm install
 npm start
 ```
 
