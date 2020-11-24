@@ -1,6 +1,6 @@
 # Finding Falcone!
 
-This project demonstrates how to use Twitter API. Users can search for Twitter using the web form.
+This project demonstrates how to build a simple, web-based game. 
 
 
 The application uses the following technologies:
